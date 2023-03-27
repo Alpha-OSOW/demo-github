@@ -1,5 +1,6 @@
 aller sur le lien suivant :
 https://git-scm.com/downloads
+https://git-scm.com/download/win
 télécharger le fichier .exe (windows) => double cliquer
 next next .... Fin 
 laissé toutes les options conseillées (sans aucune )
