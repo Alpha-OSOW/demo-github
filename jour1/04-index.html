@@ -8,53 +8,98 @@
 </head>
 <body>
     <p>Bonjour tout le monde</p>
+    <!-- 
+        je veux garder l'evolution de ma page 04-index.html 
+        je veux stocker les différentes phases de l'évolution de ce fichier 
+        => git !!! 
+        git add --all
+        git commit -m "création page d'accueil"
+        [main dcd1002] création page d'accueil
+        1 file changed, 18 insertions(+)
+        git add --all 
+        git add => action sélectionner des fichiers pour les versionner dans repo
+             --all => tous les fichiers 
+        git commit -m "message" => l'action d'enregistrement des fichiers DANS
+            le repo 
+         git commit => enregistre  dans le dossier .git 
+         -m "création page d'accueil" => associer à l'enregistrement un message 
+         expliquer pourquoi on réalisé l'enregistrement 
+         2 étapes => selectionne git add --all 
+                  => enregistrer avec un mesage git commit -m "modifier ... "
+        
+        dès que tu fait évolution n'importe quel fichier 
+        ajouter de nouveau fichier 
+        supprimer des fichiers 
+        
+    -->
     <article>
         <h2>je suis un article</h2>
         <img src="https://via.placeholder.com/400x200" alt="">
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deserunt quo cum explicabo,
-             eaque quidem distinctio fugit aperiam consectetur eveniet 
-             non odio dolor quaerat placeat ipsum natus debitis dignissimos perferendis!</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam laborum quia quas quibusdam esse sapiente recusandae placeat velit, ex, ratione, facere natus? Facere qui adipisci distinctio incidunt voluptas esse.</p>
     </article>
+    <!-- 
+        Enregistrer le fichier 
+        git add --all
+        git commit -m "création d'un article"
+        git => outil histoire de ton code / correction de bug 
+    -->
     <table>
+        <!-- tr*5>td*3>lorem2 
+        
+        git config --global gui.encoding utf-8
+        -->
         <tr>
             <td>étudiant Doranco</td>
-            <td>élève formation</td>
-            <td>aime marcher</td>
+            <td>élève en formation</td>
+            <td>être dans la découverte</td>
         </tr>
         <tr>
-            <td>marche riz</td>
-            <td>lorem ipsum</td>
-            <td>lien ajouté</td>
+            <td>Lorem, ipsum.</td>
+            <td>Rerum, consequatur!</td>
+            <td>Perspiciatis, voluptatum.</td>
         </tr>
         <tr>
-            <td>demande foot</td>
-            <td>pomme croissant</td>
-            <td>raisin fraise</td>
+            <td>Lorem, ipsum.</td>
+            <td>Voluptatem, veniam.</td>
+            <td>Doloribus, laborum!</td>
         </tr>
         <tr>
-            <td>télé match</td>
-            <td>canapé coussin</td>
-            <td>ordinateur souris</td>
+            <td>Lorem, ipsum.</td>
+            <td>Quam, nostrum.</td>
+            <td>Quas, corporis?</td>
         </tr>
         <tr>
-            <td>chaise bureau</td>
-            <td>mangue avocat</td>
-            <td>bouteille boire</td>
+            <td>Lorem, ipsum.</td>
+            <td>Quisquam, impedit.</td>
+            <td>Maiores, natus!</td>
         </tr>
-
     </table>
+
     <form action="">
-        <input type="text" placeholder="alphaoumar210@yahoo.fr">
+        <input type="text" placeholder="votre@email">
         <input type="submit" value="s'inscrire à la newsletter">
     </form>
+    <!-- 
+        Enregistrer 
+        git add jour1/04-index.html
+        git add --all 
+        git commit -m "ajout d'un formulaire de newsletter"
+    -->
+    <!-- au minimum 3 commit 
+    outil gitk
+    gitk 
+    attention git est outil de VERSIONNING incrémental (stocker QUE les modifications )
+    et non tout le fichier à chaque fois (gagner de la place)
+    seul lors de la création du fichier stocke le fichier à 100% 
+    pour les suivants => INCREMENT
+    -->
+
     <!-- 
         dans le fichier 04-index.html 
         ajouter un tableau <table> entre le formulaire de newsletter et l'article 
             ce table contient 5 lignes et 3 colonnes avec 2 mots par cellule 
-
         add et commit 
         gitk pour confirmer que vous avez bien enregistré votre version dans le repository
-     -->
-    
+    -->
 </body>
 </html>
